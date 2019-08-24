@@ -1,0 +1,1 @@
+sudo genisoimage -N -J -R -D -V "PRESEED.UB1604" -o ubuntu-16.04.4-server-amd64-preseed."$(date +%Y%m%d.%H%M%S)".iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table work_iso/
